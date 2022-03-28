@@ -1,0 +1,29 @@
+
+ *{
+  background-color:	;
+  font-family: sans-serif;
+  color: ;
+}
+
+/*:checked{
+  border: 5px solid blue;
+*/
+input[type="checkbox"]:checked {
+  background-color: yellow;
+  accent-color: orange;
+}
+:focus{
+  background-color: gray;
+
+}
+:hover{
+  font-family: fantasy;
+  color: darkblue;
+}
+:disabled{
+  background-color: black,
+}
+input[type="radio"]{
+  background-color: red;
+  border-style: solid;
+}

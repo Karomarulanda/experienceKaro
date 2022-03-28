@@ -1,0 +1,18 @@
+ul li{
+flex: 1 1 0;
+}
+
+ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+padding: 0;
+gap: 2px;
+}
+
+li{
+font-family: sans-serif;
+background-color: #00beffcc;
+display: block;
+margin-bottom: 2px;
+}

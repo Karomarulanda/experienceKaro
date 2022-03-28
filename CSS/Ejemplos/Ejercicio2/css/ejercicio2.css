@@ -1,0 +1,58 @@
+body{
+  font-family: calibri;
+  text-align: justify;
+}
+h1{
+  font-family: serif;
+  color: black;
+  text-align: center;
+
+
+}
+
+section{
+text-align: left;
+margin: 5%;
+
+}
+
+h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  border-bottom: solid;
+  border-bottom-color: #a0cdcd;
+  border-right: 1em;
+  text-align: left;
+  padding-bottom width: 1px;
+  border-bottom-style: ;
+}
+span{
+  text-decoration: underline;
+  text-decoration-color: #71aeb1;
+  color: #71aeb1;
+  font-weight: bold;
+}
+p{
+text-align: left;
+}
+
+p#P1{
+  margin: 3px;
+  padding: 8px;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.5px;
+}
+p.T2{
+  padding: 6px;
+  background-color: #f3f3f3;
+}
+p.P2{
+  padding: 6px;
+  background-color: #d1d1d1;
+}
+/*regla que aplica a la selección de texto*/
+p::selection{
+  background-color: green;
+  color: blue;
+}

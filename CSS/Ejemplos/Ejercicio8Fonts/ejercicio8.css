@@ -1,0 +1,26 @@
+@font-face {
+font-family: 'Open Sans';
+src: url('open-sans.woff')format('woff'),
+url('open-sans.woff2')format('woff2');
+}
+
+body {
+font-family: 'Open Sans',sans-serif;
+}
+
+#section1{
+  font-family: 'Smokum Regular', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+
+#section3{
+ font-family: 'Inspiration', cursive;
+}
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+#section2{
+
+}

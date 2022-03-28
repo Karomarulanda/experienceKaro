@@ -1,0 +1,28 @@
+section {
+  background-color: #80808066;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  color: red;
+
+}
+
+#Sec1{
+background-color: pink;
+border-radius: 18px
+}
+
+#Sec2{
+border-radius: 68px;
+}
+
+#Sec3{
+background-color: pink;
+border-radius: 65px 0 0 0;
+}
+
+h1{
+  font-family: sans-serif;
+}

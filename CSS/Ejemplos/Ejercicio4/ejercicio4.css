@@ -1,0 +1,66 @@
+
+ *{
+  background-color:	#c4ebe07a;
+  font-family: sans-serif;
+  color: purple;
+}
+
+label[for="nombre"]{
+  font-family: sans-serif;
+  color: purple;
+  border-color: gray;
+  border-radius: 1px;
+}
+
+label[for="condiciones"]{
+  color: green;
+  font-size: sans-serif;
+}
+
+fieldset legend{
+  font-family: sans-serif;
+  color: purple;
+}
+label[for="apellido"]{
+  font-family: sans-serif;
+  color: purple;
+  border-color: gray;
+  border-radius: 1px;
+}
+label[for="email"]{
+  font-family: sans-serif;
+  color: purple;
+  border-color: gray;
+  border-radius: 1px;
+}
+
+label[for="condiciones"]{
+  font-family: sans-serif;
+  color: purple;
+  border-color: gray;
+  border-radius: 1px;
+}
+label[for="textolibre"]{
+  font-family: sans-serif;
+  color: purple;
+  border-color: gray;
+  border-radius: 1px;
+}
+textarea[name="textolibre"]{
+background-color: #ffa41a;
+}
+
+select[name="poblacion"] {
+  background-color: #ffa41a;
+}
+input {
+  background-color: #ffa41a;
+}
+a:hover{
+  color, green;
+  font-size: 50px;
+  cursor: not-allowed;
+}
+/*:checked{
+  border: 5px solid blue;
+}*/

@@ -1,0 +1,13 @@
+h1{
+  color: darkred;
+  font-size: 86px;
+}
+h2{
+  color:rgba (255,0,0,0.1);
+}
+
+p,span{
+  color:darkblue;
+  font-size: 32px;
+  font-family: Comic Sans MS;
+}

@@ -1,0 +1,51 @@
+section {
+  background-image:url(https://podcastaddict.com/cache/artwork/thumb/3146655);
+  border: 5px dotted black;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+}
+
+section{
+  width:300px;
+   height:300px;
+   padding:50px;
+   background-image: url('http://www.placehold.it/400x400');
+   background-repeat: no-repeat;
+   border: 10px solid rgba(255, 170, 170, .5);
+   background-clip: padding-box;
+   background-origin: content-box
+}
+
+
+section_nth-child(1) {
+  background-repeat: space;
+  background-origin: content-box;
+}
+section#1{
+
+}
+# 1{
+background-size: contain;
+background-repeat: no-repeat;
+}
+section3{
+background-size: contain;
+}
+section4{
+background-clip: content-box;
+}
+section5{
+background-clip: content-box;
+}
+section6{
+background-position: left;
+}
+section7{
+background-repeat: repeat;
+}
+section8{
+background-color: pink;
+}
+
+# 1

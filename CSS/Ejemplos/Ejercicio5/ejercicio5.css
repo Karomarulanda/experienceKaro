@@ -1,0 +1,28 @@
+*{
+ background-color:	#;
+ font-family: sans-serif;
+ color: purple;
+}
+a[href="https://www.hostinger.es/tutoriales"]{
+  color: #ff0000;
+}
+a[href="https://www.synergym.es/"]{
+  color: green;
+}
+a[href="https://www.lasanez.com/"]{
+  color: orange;
+}
+a[href="https://cinefiliamalversa.blogspot.com/search/label/*Jonathan%20Demme"]{
+  color: blue;
+}
+a[href="https://www.bibliotecapleyades.net/#ESPA%C3%91OL"]{
+  color: purple;
+}
+a:hover{
+  border: black 1px solid;
+  background-color: pink;
+}
+a:visited{
+  background-color: #dbdbdb;
+  color: orange;
+}
