@@ -1,23 +1,55 @@
 body{
    font-family: sans-serif;
    display: flex;
-   padding: 20px;
-   height: 100vh;
-   box-sizing: border-box;
+   flex-direction: column;
+   height: 100vmin;
+   text-align: center;
  }
- .izquierda{
-   flex: 2;
-   padding: 12px;
-   background: rgba(14,124,116,1.00);
+
+header{
+background: #ffba39;
+/*text-align: center;*/
+font-size: 24px;
+font-weight: bold;
+height: 24px;
+padding: 20px;
+}
+
+main{
+  /*text-align: center;*/
+  display: flex;
+  height: 100%;
+}
+
+section{
+  display: flex;
+/*text-align: center;*/
+}
+
+.izquierda{
+  flex: 1;
+  justify-content: center;
+   display: flex;
+   padding: 24px;
+   background: #626e81;
    color: white;
  }
- .derecha{
-   flex: 1;
-   display: flex;
-   flex-direction: column;
- }
- .fila{
-   flex: 1 1 100%;
+
+.centro{
+  flex: 2;
+   justify-content: center;
    border: 1px solid lightgray;
    padding: 24px;
+   background: #cfd4df;
+   color: black;
+ }
+
+.derecha{
+  flex: 1;
+  justify-content: center;
+   display: flex;
+   padding: 24px;
+   display: flex;
+   background: #626e81;
+   color: white;
  }

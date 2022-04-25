@@ -1,0 +1,81 @@
+body{
+  display: grid;
+  grid-template-areas: "header header header"
+                      "nav main ads"
+                      "footer footer footer";
+  grid-template-rows: 80px 1fr 70px;
+  grid-template-columns: 20% 1fr 15%;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+}
+header, footer, main, nav, section{
+  padding: 1.2em;
+  background-color: #548771;
+}
+#pageHeader{
+  grid-area: header;
+}
+#pageFooter{
+  grid-area: footer;
+}
+#mainSection{
+  grid-area: main;
+}
+#mainNav{
+  grid-area: nav;
+}
+#siteAds{
+  grid-area: ads;
+}
+ main{
+  display: grid;
+  grid-template-areas: "Nprincipal Nprincipal"
+                        "Articulo1 Articulo2"
+                        "Articulo3 Articulo4";
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+}
+
+#Nprincipal{
+  grid-area: Nprincipal;
+}
+#Articulo1{
+  grid-area: Articulo1;
+  padding: 5px;
+  margin: 10px;
+  text-align: justify;
+}
+#Articulo2{
+  grid-area: Articulo2;
+  padding: 5px;
+  margin: 5px;
+  text-align: justify;
+}
+#Articulo3{
+  grid-area: Articulo3;
+  padding: 5px;
+  margin: 10px;
+  text-align: justify;
+}
+#Articulo4{
+  grid-area: Articulo4;
+  padding: 5px;
+  margin: 10px;
+  text-align: justify;
+}
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body {
+    grid-template-areas:
+      "header"
+      "nav"
+      "main"
+      "ads"
+      "footer";
+    grid-template-rows: 80px 70px 1fr 70px 70px;
+    grid-template-columns: 1fr;
+ }
